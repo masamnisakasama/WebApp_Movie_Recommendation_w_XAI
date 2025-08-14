@@ -8,7 +8,8 @@ LIME を用いた説明可能なAI（XAI）により「なぜ似ているか」�
 AppのURL: https://webappmovierecommendation-sdlcfu3nu6pfcyxmdu6pmq.streamlit.app
 
 <注意>
-“Your app is in the oven”が長いです。デプロイのプロセスがキャッシュされていないのが原因かもしれません。あまりに続くようならキャッシュする予定です。
+“Your app is in the oven”や、”Hmm... looks like it's taking longer than normal.Check back in a minute or two!”が長いです。デプロイのプロセスがキャッシュされていないのが原因かもしれません。あまりに続くようならキャッシュする予定です。
+
 
 ## 開発の背景
 
