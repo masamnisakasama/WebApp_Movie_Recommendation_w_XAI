@@ -5,9 +5,9 @@
 Movie_Recommendation_w_XAI は、映画タイトルを入力すると類似する映画を推薦するWebアプリです。  
 LIME を用いた説明可能なAI（XAI）により「なぜ似ているか」を文章で示す機能がついています。
 
-AppのURL(遅い版): https://webappmovierecommendation-sdlcfu3nu6pfcyxmdu6pmq.streamlit.app　<br>
-AppのURL(早い版): https://webappmovierecommendationwxairenewed-bwaec7bwbz6cktytgjheda.streamlit.app
+AppのURL: https://webappmovierecommendationwxairenewed-bwaec7bwbz6cktytgjheda.streamlit.app
 
+読み込みが異様に遅かったので、改良を施しました。<br>
 初回は時間がかかりますが、2回目以降早い版では比較的早く起動すると思います。<br><br>
 主な変更点<br>
 - BERTのトークナイザーの並列処理を無効化して、メモリが不安定になるのを防ぐ
