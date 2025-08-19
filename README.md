@@ -8,13 +8,11 @@ LIME を用いた説明可能なAI（XAI）により「なぜ似ているか」�
 AppのURL(遅い版): https://webappmovierecommendation-sdlcfu3nu6pfcyxmdu6pmq.streamlit.app　<br>
 AppのURL(早い版): https://webappmovierecommendationwxairenewed-bwaec7bwbz6cktytgjheda.streamlit.app
 
-初回は時間がかかりますが、2回目以降早い番版では比較的早く起動すると思います。<br><br>
+初回は時間がかかりますが、2回目以降早い版では比較的早く起動すると思います。<br><br>
 主な変更点<br>
 - BERTのトークナイザーの並列処理を無効化して、メモリが不安定になるのを防ぐ
 - ２重ロードされて重くなっていたSentenceTransformerを1回だけロードして、再利用できるようにした<br>
 
-<注意>
-“Your app is in the oven”や、”Hmm... looks like it's taking longer than normal.Check back in a minute or two!”が長いです。デプロイのプロセスがキャッシュされていないのが原因かもしれません。あまりに続くようならキャッシュする予定です。
 
 
 ## 開発の背景
