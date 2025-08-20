@@ -8,7 +8,7 @@ LIME を用いた説明可能なAI（XAI）により「なぜ似ているか」�
 AppのURL: https://webappmovierecommendationwxairenewed-bwaec7bwbz6cktytgjheda.streamlit.app
 
 読み込みが異様に遅かったので、改良を施しました。<br>
-初回は時間がかかりますが、2回目以降早い版では比較的早く起動すると思います。<br><br>
+直したはずですが時間がかかっています。キャッシュできるものはした記憶があるので、これ以上は早くできないかもしれません。<br><br>
 主な変更点<br>
 - BERTのトークナイザーの並列処理を無効化して、メモリが不安定になるのを防ぐ
 - ２重ロードされて重くなっていたSentenceTransformerを1回だけロードして、再利用できるようにした<br>
